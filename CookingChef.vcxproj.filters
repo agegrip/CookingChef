@@ -1,95 +1,211 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Game">                       <UniqueIdentifier>{ab828224-370e-4838-aad8-6f075c975359}</UniqueIdentifier> </Filter>
-    <Filter Include="Game\Common">                <UniqueIdentifier>{cd7e1b52-69f7-4d03-add3-d60bc3f02230}</UniqueIdentifier> </Filter>
-    <Filter Include="Game\Assets">                <UniqueIdentifier>{12d76628-35ac-41da-a64b-d128d08dbb39}</UniqueIdentifier> </Filter>
-    <Filter Include="Game\Assets\Models">         <UniqueIdentifier>{914661a5-17bf-4143-a081-6baa4fda7552}</UniqueIdentifier> </Filter>
-    <Filter Include="Game\Assets\Shaders">        <UniqueIdentifier>{acbb5958-eba3-4b9a-98d7-555701ddefd1}</UniqueIdentifier> </Filter>
-    <Filter Include="3rdParty">                   <UniqueIdentifier>{d18d8924-e420-4106-a787-2c76892c1166}</UniqueIdentifier> </Filter>
-    <Filter Include="3rdParty\DirectXTK">         <UniqueIdentifier>{b874bbcd-cd12-43c4-9a62-399d925ad217}</UniqueIdentifier> </Filter>
-    <Filter Include="3rdParty\DirectXTK\Include"> <UniqueIdentifier>{c9a5e858-92f6-4e96-86ae-d3a55bcdfc20}</UniqueIdentifier> </Filter>
-    <Filter Include="3rdParty\DirectXTK\Lib">     <UniqueIdentifier>{7acd42a6-a710-4826-8b07-faa193ea37fd}</UniqueIdentifier> </Filter>
-    <Filter Include="Resources">                  <UniqueIdentifier>{6b71eaf2-9109-444b-b74a-a3c13f37617c}</UniqueIdentifier> </Filter>
-    <Filter Include="Resources\Fonts">            <UniqueIdentifier>{db04916e-6a45-4051-b4e2-f5f325c5bebe}</UniqueIdentifier> </Filter>
-    <Filter Include="Resources\Icon">             <UniqueIdentifier>{3792b0bb-fb79-42a5-9d85-2052db4cf932}</UniqueIdentifier> </Filter>
-    <Filter Include="Resources\Models">           <UniqueIdentifier>{fe84b319-39e2-4abf-92e7-9a2e21ccc4f1}</UniqueIdentifier> </Filter>
-    <Filter Include="Resources\Shaders">          <UniqueIdentifier>{d34f9067-8b07-484e-806f-3a9b1dab1827}</UniqueIdentifier> </Filter>
-    <Filter Include="Resources\Sounds">           <UniqueIdentifier>{92810e2c-9a1f-4cb1-8607-6e1fc2c61c98}</UniqueIdentifier> </Filter>
-    <Filter Include="Resources\Textures">         <UniqueIdentifier>{09ea98a4-e177-4738-9b60-2e38109d274a}</UniqueIdentifier> </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{ab828224-370e-4838-aad8-6f075c975359}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Common">
+      <UniqueIdentifier>{cd7e1b52-69f7-4d03-add3-d60bc3f02230}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Assets">
+      <UniqueIdentifier>{12d76628-35ac-41da-a64b-d128d08dbb39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Assets\Models">
+      <UniqueIdentifier>{914661a5-17bf-4143-a081-6baa4fda7552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Assets\Shaders">
+      <UniqueIdentifier>{acbb5958-eba3-4b9a-98d7-555701ddefd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rdParty">
+      <UniqueIdentifier>{d18d8924-e420-4106-a787-2c76892c1166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rdParty\DirectXTK">
+      <UniqueIdentifier>{b874bbcd-cd12-43c4-9a62-399d925ad217}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rdParty\DirectXTK\Include">
+      <UniqueIdentifier>{c9a5e858-92f6-4e96-86ae-d3a55bcdfc20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rdParty\DirectXTK\Lib">
+      <UniqueIdentifier>{7acd42a6-a710-4826-8b07-faa193ea37fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{6b71eaf2-9109-444b-b74a-a3c13f37617c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Fonts">
+      <UniqueIdentifier>{db04916e-6a45-4051-b4e2-f5f325c5bebe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Icon">
+      <UniqueIdentifier>{3792b0bb-fb79-42a5-9d85-2052db4cf932}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Models">
+      <UniqueIdentifier>{fe84b319-39e2-4abf-92e7-9a2e21ccc4f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Shaders">
+      <UniqueIdentifier>{d34f9067-8b07-484e-806f-3a9b1dab1827}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Sounds">
+      <UniqueIdentifier>{92810e2c-9a1f-4cb1-8607-6e1fc2c61c98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Textures">
+      <UniqueIdentifier>{09ea98a4-e177-4738-9b60-2e38109d274a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{1eb065ec-496c-48a0-a288-5b29d9de7cfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameCollider">
+      <UniqueIdentifier>{9c27ccaf-cf27-47ce-bd56-9ee3cb5d747e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameWindow">
+      <UniqueIdentifier>{a392ea18-3c17-427e-af7c-bef3d490bbef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{1dfb67bf-7756-4b9b-b429-87a1cbd5e92f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
-
-
   <ItemGroup>
     <!-- アプリケーションマニフェスト -->
     <Manifest Include="settings.manifest" />
-
     <!-- プリコンパイル済みヘッダ -->
     <ClInclude Include="pch.h" />
     <ClCompile Include="pch.cpp" />
-
     <!-- メイン -->
     <ClCompile Include="Main.cpp" />
-
-
     <!-- Gameフォルダ -->
     <!-- ゲーム本体 -->
-    <ClInclude       Include="Game\Game.h">                         <Filter>Game</Filter>                </ClInclude>
-    <ClCompile       Include="Game\Game.cpp">                       <Filter>Game</Filter>                </ClCompile>
+    <ClInclude Include="Game\Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClCompile Include="Game\Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
     <!-- 共通 -->
-    <ClInclude       Include="Game\Common\BinaryFile.h">            <Filter>Game\Common</Filter>         </ClInclude>
-    <ClCompile       Include="Game\Common\BinaryFile.cpp">          <Filter>Game\Common</Filter>         </ClCompile>
-    <ClInclude       Include="Game\Common\DeviceResources.h">       <Filter>Game\Common</Filter>         </ClInclude>
-    <ClCompile       Include="Game\Common\DeviceResources.cpp">     <Filter>Game\Common</Filter>         </ClCompile>
-    <ClInclude       Include="Game\Common\GameContext.h">           <Filter>Game\Common</Filter>         </ClInclude>
-    <ClInclude       Include="Game\Common\StepTimer.h">             <Filter>Game\Common</Filter>         </ClInclude>
+    <ClInclude Include="Game\Common\BinaryFile.h">
+      <Filter>Game\Common</Filter>
+    </ClInclude>
+    <ClCompile Include="Game\Common\BinaryFile.cpp">
+      <Filter>Game\Common</Filter>
+    </ClCompile>
+    <ClInclude Include="Game\Common\DeviceResources.h">
+      <Filter>Game\Common</Filter>
+    </ClInclude>
+    <ClCompile Include="Game\Common\DeviceResources.cpp">
+      <Filter>Game\Common</Filter>
+    </ClCompile>
+    <ClInclude Include="Game\Common\GameContext.h">
+      <Filter>Game\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Common\StepTimer.h">
+      <Filter>Game\Common</Filter>
+    </ClInclude>
     <!-- アセット -->
-    <MeshContentTask Include="Game\Assets\Models\WoodenBox.fbx">    <Filter>Game\Assets\Models</Filter>  </MeshContentTask>
-    <None            Include="Game\Assets\Shaders\Particle.hlsli">  <Filter>Game\Assets\Shaders</Filter> </None>
-    <FxCompile       Include="Game\Assets\Shaders\ParticleGS.hlsl"> <Filter>Game\Assets\Shaders</Filter> </FxCompile>
-    <FxCompile       Include="Game\Assets\Shaders\ParticlePS.hlsl"> <Filter>Game\Assets\Shaders</Filter> </FxCompile>
-    <FxCompile       Include="Game\Assets\Shaders\ParticleVS.hlsl"> <Filter>Game\Assets\Shaders</Filter> </FxCompile>
-
-
+    <MeshContentTask Include="Game\Assets\Models\WoodenBox.fbx">
+      <Filter>Game\Assets\Models</Filter>
+    </MeshContentTask>
+    <None Include="Game\Assets\Shaders\Particle.hlsli">
+      <Filter>Game\Assets\Shaders</Filter>
+    </None>
+    <FxCompile Include="Game\Assets\Shaders\ParticleGS.hlsl">
+      <Filter>Game\Assets\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Game\Assets\Shaders\ParticlePS.hlsl">
+      <Filter>Game\Assets\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Game\Assets\Shaders\ParticleVS.hlsl">
+      <Filter>Game\Assets\Shaders</Filter>
+    </FxCompile>
     <!-- 3rdPartyフォルダ -->
     <!-- DirectXTK -->
     <!-- プロパティシート -->
-    <None      Include="3rdParty\DirectXTK\DirectXTK.props">                        <Filter>3rdParty\DirectXTK</Filter>         </None>
+    <None Include="3rdParty\DirectXTK\DirectXTK.props">
+      <Filter>3rdParty\DirectXTK</Filter>
+    </None>
     <!-- ヘッダリスト -->
-    <ClInclude Include="3rdParty\DirectXTK\DirectXTKHeaderList.h">                  <Filter>3rdParty\DirectXTK</Filter>         </ClInclude>
+    <ClInclude Include="3rdParty\DirectXTK\DirectXTKHeaderList.h">
+      <Filter>3rdParty\DirectXTK</Filter>
+    </ClInclude>
     <!-- ライブラリヘッダ -->
-    <ClInclude Include="3rdParty\DirectXTK\Include\DirectXTK\CommonStates.h">       <Filter>3rdParty\DirectXTK\Include</Filter> </ClInclude>
-    <ClInclude Include="3rdParty\DirectXTK\Include\DirectXTK\DDSTextureLoader.h">   <Filter>3rdParty\DirectXTK\Include</Filter> </ClInclude>
-    <ClInclude Include="3rdParty\DirectXTK\Include\DirectXTK\DirectXHelpers.h">     <Filter>3rdParty\DirectXTK\Include</Filter> </ClInclude>
-    <ClInclude Include="3rdParty\DirectXTK\Include\DirectXTK\Effects.h">            <Filter>3rdParty\DirectXTK\Include</Filter> </ClInclude>
-    <ClInclude Include="3rdParty\DirectXTK\Include\DirectXTK\GamePad.h">            <Filter>3rdParty\DirectXTK\Include</Filter> </ClInclude>
-    <ClInclude Include="3rdParty\DirectXTK\Include\DirectXTK\GeometricPrimitive.h"> <Filter>3rdParty\DirectXTK\Include</Filter> </ClInclude>
-    <ClInclude Include="3rdParty\DirectXTK\Include\DirectXTK\GraphicsMemory.h">     <Filter>3rdParty\DirectXTK\Include</Filter> </ClInclude>
-    <ClInclude Include="3rdParty\DirectXTK\Include\DirectXTK\Keyboard.h">           <Filter>3rdParty\DirectXTK\Include</Filter> </ClInclude>
-    <ClInclude Include="3rdParty\DirectXTK\Include\DirectXTK\Model.h">              <Filter>3rdParty\DirectXTK\Include</Filter> </ClInclude>
-    <ClInclude Include="3rdParty\DirectXTK\Include\DirectXTK\Mouse.h">              <Filter>3rdParty\DirectXTK\Include</Filter> </ClInclude>
-    <ClInclude Include="3rdParty\DirectXTK\Include\DirectXTK\PostProcess.h">        <Filter>3rdParty\DirectXTK\Include</Filter> </ClInclude>
-    <ClInclude Include="3rdParty\DirectXTK\Include\DirectXTK\PrimitiveBatch.h">     <Filter>3rdParty\DirectXTK\Include</Filter> </ClInclude>
-    <ClInclude Include="3rdParty\DirectXTK\Include\DirectXTK\ScreenGrab.h">         <Filter>3rdParty\DirectXTK\Include</Filter> </ClInclude>
-    <ClInclude Include="3rdParty\DirectXTK\Include\DirectXTK\SimpleMath.h">         <Filter>3rdParty\DirectXTK\Include</Filter> </ClInclude>
-    <None      Include="3rdParty\DirectXTK\Include\DirectXTK\SimpleMath.inl">       <Filter>3rdParty\DirectXTK\Include</Filter> </None>
-    <ClInclude Include="3rdParty\DirectXTK\Include\DirectXTK\SpriteBatch.h">        <Filter>3rdParty\DirectXTK\Include</Filter> </ClInclude>
-    <ClInclude Include="3rdParty\DirectXTK\Include\DirectXTK\SpriteFont.h">         <Filter>3rdParty\DirectXTK\Include</Filter> </ClInclude>
-    <ClInclude Include="3rdParty\DirectXTK\Include\DirectXTK\VertexTypes.h">        <Filter>3rdParty\DirectXTK\Include</Filter> </ClInclude>
-    <ClInclude Include="3rdParty\DirectXTK\Include\DirectXTK\WICTextureLoader.h">   <Filter>3rdParty\DirectXTK\Include</Filter> </ClInclude>
+    <ClInclude Include="3rdParty\DirectXTK\Include\DirectXTK\CommonStates.h">
+      <Filter>3rdParty\DirectXTK\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\DirectXTK\Include\DirectXTK\DDSTextureLoader.h">
+      <Filter>3rdParty\DirectXTK\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\DirectXTK\Include\DirectXTK\DirectXHelpers.h">
+      <Filter>3rdParty\DirectXTK\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\DirectXTK\Include\DirectXTK\Effects.h">
+      <Filter>3rdParty\DirectXTK\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\DirectXTK\Include\DirectXTK\GamePad.h">
+      <Filter>3rdParty\DirectXTK\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\DirectXTK\Include\DirectXTK\GeometricPrimitive.h">
+      <Filter>3rdParty\DirectXTK\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\DirectXTK\Include\DirectXTK\GraphicsMemory.h">
+      <Filter>3rdParty\DirectXTK\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\DirectXTK\Include\DirectXTK\Keyboard.h">
+      <Filter>3rdParty\DirectXTK\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\DirectXTK\Include\DirectXTK\Model.h">
+      <Filter>3rdParty\DirectXTK\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\DirectXTK\Include\DirectXTK\Mouse.h">
+      <Filter>3rdParty\DirectXTK\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\DirectXTK\Include\DirectXTK\PostProcess.h">
+      <Filter>3rdParty\DirectXTK\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\DirectXTK\Include\DirectXTK\PrimitiveBatch.h">
+      <Filter>3rdParty\DirectXTK\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\DirectXTK\Include\DirectXTK\ScreenGrab.h">
+      <Filter>3rdParty\DirectXTK\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\DirectXTK\Include\DirectXTK\SimpleMath.h">
+      <Filter>3rdParty\DirectXTK\Include</Filter>
+    </ClInclude>
+    <None Include="3rdParty\DirectXTK\Include\DirectXTK\SimpleMath.inl">
+      <Filter>3rdParty\DirectXTK\Include</Filter>
+    </None>
+    <ClInclude Include="3rdParty\DirectXTK\Include\DirectXTK\SpriteBatch.h">
+      <Filter>3rdParty\DirectXTK\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\DirectXTK\Include\DirectXTK\SpriteFont.h">
+      <Filter>3rdParty\DirectXTK\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\DirectXTK\Include\DirectXTK\VertexTypes.h">
+      <Filter>3rdParty\DirectXTK\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdParty\DirectXTK\Include\DirectXTK\WICTextureLoader.h">
+      <Filter>3rdParty\DirectXTK\Include</Filter>
+    </ClInclude>
     <!-- ライブラリ -->
-    <Library   Include="3rdParty\DirectXTK\Lib\DirectXTK.lib">                      <Filter>3rdParty\DirectXTK\Lib</Filter>     </Library>
-    <Library   Include="3rdParty\DirectXTK\Lib\DirectXTKd.lib">                     <Filter>3rdParty\DirectXTK\Lib</Filter>     </Library>
-    <None      Include="3rdParty\DirectXTK\Lib\DirectXTKd.pdb">                     <Filter>3rdParty\DirectXTK\Lib</Filter>     </None>
-
-
+    <Library Include="3rdParty\DirectXTK\Lib\DirectXTK.lib">
+      <Filter>3rdParty\DirectXTK\Lib</Filter>
+    </Library>
+    <Library Include="3rdParty\DirectXTK\Lib\DirectXTKd.lib">
+      <Filter>3rdParty\DirectXTK\Lib</Filter>
+    </Library>
+    <None Include="3rdParty\DirectXTK\Lib\DirectXTKd.pdb">
+      <Filter>3rdParty\DirectXTK\Lib</Filter>
+    </None>
     <!-- Resources -->
     <!-- アイコン -->
-    <Image           Include="Resources\Icon\Icon.ico">               <Filter>Resources\Icon</Filter>     </Image>
-    <ResourceCompile Include="Resources\Icon\Icon.rc">                <Filter>Resources\Icon</Filter>     </ResourceCompile>
+    <Image Include="Resources\Icon\Icon.ico">
+      <Filter>Resources\Icon</Filter>
+    </Image>
+    <ResourceCompile Include="Resources\Icon\Icon.rc">
+      <Filter>Resources\Icon</Filter>
+    </ResourceCompile>
     <!-- フォント -->
-    <None            Include="Resources\Fonts\SegoeUI_18.spritefont"> <Filter>Resources\Fonts</Filter>    </None>
+    <None Include="Resources\Fonts\SegoeUI_18.spritefont">
+      <Filter>Resources\Fonts</Filter>
+    </None>
     <!-- テクスチャ -->
-    <Image           Include="Resources\Textures\TridentLogo.png">    <Filter>Resources\Textures</Filter> </Image>
+    <Image Include="Resources\Textures\TridentLogo.png">
+      <Filter>Resources\Textures</Filter>
+    </Image>
   </ItemGroup>
 </Project>
